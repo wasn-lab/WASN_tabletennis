@@ -12,8 +12,8 @@
 python setup_zones_4.py <source.MP4>
 python velocity_rec4.py --source <source.MP4> --weights <weight.pt> --project <place to save result>
 ```
-##### 上述操作完成後 result(csv and output_video)會被保存在 <place to save result>
-    
+##### 上述操作完成後 result(csv and output_video)會被保存在 < place to save result >內
+###### 如需詳細內容，可參考 https://hackmd.io/M9QlVYDLT1qtWV2vaROphA
 ### Analysis TracknetV2 result
 ```
 原始逐 frame CSV (由velocity_rec4.py生成的)
@@ -30,6 +30,7 @@ add_median_speed.py
 draw_plot.py
 → 繪製速度變化圖
 ```
+###### 如需詳細內容，可參考 https://hackmd.io/@9EFGM0VJSuut8PiUEwtTpg/Bk4IaEYV-g
 
 ### nvidia_toolkit , pytorch_version  安裝說明
 ![image](https://github.com/wasn-lab/WASN_tabletennis/blob/main/images/hardware_info.PNG)
